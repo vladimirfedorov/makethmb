@@ -1,6 +1,5 @@
 Thumbnail creator
 =================
 
-Language: C#
-
+Language: C#  
 Environment: VS 2010
