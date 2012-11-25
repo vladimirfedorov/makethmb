@@ -28,9 +28,9 @@ namespace makethmb
             Console.WriteLine("Usage: makethmb resize_option folder");
             Console.WriteLine("  resize_otpion: Wx|Hx|Sx, where x=size in pixels");
             Console.WriteLine("  Examples:");
-            Console.WriteLine("  makethmb W100 . - create thumbnales of images in the current folder with equal width of 100px");
-            Console.WriteLine("  makethmb H100 . - create thumbnales of images in the current folder with equal height of 100px");
-            Console.WriteLine("  makethmb S100 . - create thumbnales of images in the current folder with a biggest side of 100px");
+            Console.WriteLine("  makethmb W100 . - create thumbnails of images in the current folder with equal width of 100px");
+            Console.WriteLine("  makethmb H100 . - create thumbnails of images in the current folder with equal height of 100px");
+            Console.WriteLine("  makethmb S100 . - create thumbnails of images in the current folder with the largest side of 100px");
         }
 
         static private void CreateThumbnails(string ThmbOption, string SrcFolder)
